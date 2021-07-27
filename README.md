@@ -20,6 +20,7 @@
 3. If your `key` doesn't have permissions, copy the `chmod` command
 4. Copy and paste the ssh command into terminal inside the .ssh folder
 
+</h3>
 
 <p align:center>
 <img src=aws_diagram.PNG>
@@ -128,19 +129,19 @@ sudo systemctl restart mongod
 
 ## Notes
 
-#### SSH timeout error when trying to ssh into instance
+#### **SSH timeout error when trying to ssh into instance**
 
 - Check your IP in AWS, it needs to match what you set up in SG
 
-#### Make sure all IPs are correct when setting up Security Groups in EC2
+#### **Make sure all IPs are correct when setting up Security Groups in EC2**
 
 <p align:center>
-<img src=app_sg.png>
+<img src=Inkedapp_sg_LI.jpg>
 </p>
 <p align:center>
-<img src=db_sg.png>
+<img src=Inkeddb_sg_LI.jpg>
 </p>
 
-#### If the database is connected but /posts is empty:
+#### **If the database is connected but /posts is empty:**
 
-`node ~/app/seeds seed.js`
+- `node ~/app/seeds seed.js`
