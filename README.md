@@ -4,7 +4,7 @@
 <img src=aws_diagram.PNG>
 </p>
 
-## EC2 APP instance
+# EC2 APP instance
 
 ### Adding app folder to instance
 
@@ -65,9 +65,11 @@ Once the database is created we must set the env with the db public IP addr:
 ```
 sudo echo "export DB_HOST=mongodb://34.242.255.250:27017/posts" >> ~/.bashrc
 source ~/.bashrc
+cd /app 
+npm start
 ```
 
-## EC2 DB instance
+# EC2 DB instance
 
 ### Setup and connect mongodb
 ```bash
@@ -112,3 +114,7 @@ sudo systemctl restart mongod
 <p align:center>
 <img src=db_sg.png>
 </p>
+
+### If the database is connected but /posts is empty:
+
+`node ~/app/seeds seed.js`
