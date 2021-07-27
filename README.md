@@ -67,7 +67,8 @@ sudo echo "export DB_HOST=mongodb://34.242.255.250:27017/posts" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-####
+#### 
+
 ## EC2 DB instance
 
 ### Setup and connect mongodb
@@ -108,9 +109,8 @@ sudo systemctl restart mongod
 ### Make sure all IPs are correct when setting up Security Groups in EC2
 
 <p align:center>
-<img src=app_sg.PNG>
+<img src=app_sg.png>
 </p>
-###
 <p align:center>
-<img src=db_sg.PNG>
+<img src=db_sg.png>
 </p>
