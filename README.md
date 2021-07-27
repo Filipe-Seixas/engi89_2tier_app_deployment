@@ -67,7 +67,6 @@ sudo echo "export DB_HOST=mongodb://34.242.255.250:27017/posts" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-#### 
 
 ## EC2 DB instance
 
